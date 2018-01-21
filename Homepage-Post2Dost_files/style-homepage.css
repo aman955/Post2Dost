@@ -1,0 +1,128 @@
+/*Homepage*/
+
+
+
+*{
+  background-color: rgba(0,0,0,0);
+  /*border: 1px red solid !important;*/
+
+  box-sizing: border-box !important;
+  color: white;
+}
+
+body {background-color: #34577a;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.cus-carousel{
+  top: 17px;
+}
+
+.cus-form-xs{
+  height: 200px;
+  margin: 4em;
+  position: relative;
+  top: 0px;
+}
+
+.cus-menu-bar{
+  top: 80px;
+}
+
+.foot{
+  background-color: #3c4451;
+  color: black;
+  bottom: -19px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.foot-text{
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.navbar{
+  padding-bottom: 0;
+}
+
+.navbar-logo{
+  display: inline;
+  float: left;
+  height: 55px;
+  width: 55px;
+}
+
+.panel-body,.panel-heading{
+  background-color: #afb7bf;
+}
+
+.page-head{
+  background-color: #3c4451;
+  padding: 15px 0;
+}
+
+.top-head{
+  margin-bottom: -2px;
+  padding-bottom: 0;
+}
+
+.why-us{
+  background-color: #428bca;
+  color: black;
+  margin-top: -42px;
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+.z-top{
+  position: relative;
+}
+
+@media(max-width:768px){
+
+.carousel-control{
+  top: 420px;
+  z-index: 5;
+}
+
+.cus-form-xs{
+  color: white;
+  position: relative;
+  z-index: 5;
+}
+
+  .cus-menu-bar{
+  top: 0;
+  }
+
+  .why-us{
+    top: 0px;
+    position: relative;
+  }
+
+}
+
+
+.subs{
+  background-color: #141e13;
+  margin: -19px 0;
+  position: relative;
+}
+
+.subs a{
+  text-decoration: none;
+  color: white;
+}
+
+.subs a:hover{
+  color: cyan;
+}
+
+.subs-col{
+  padding-bottom: 75px;
+}
