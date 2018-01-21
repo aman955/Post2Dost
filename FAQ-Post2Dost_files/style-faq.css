@@ -1,0 +1,105 @@
+/*About Us*/
+
+*{
+  background-color: rgba(0,0,0,0);
+/*  border: 1px red solid !important;
+*/
+  box-sizing: border-box !important;
+  color: white;
+}
+
+body {background-color: #34577a;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.cus-form-xs{
+  height: 200px;
+  margin: 4em;
+  position: relative;
+  top: 0px;
+}
+
+.cus-menu-bar{
+  top: 80px;
+}
+
+.foot{
+  background-color: #3c4451;
+  color: black;
+  bottom: -70px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.navbar{
+  color: white;
+}
+
+.navbar-logo{
+  display: inline;
+  float: left;
+  height: 55px;
+  width: 55px;
+}
+
+.panel-body{
+  color: black;
+}
+
+.panel-body,.panel-heading{
+  background-color: #afb7bf;
+}
+
+.page-head{
+  background-color: #3c4451;
+  padding: 15px 0;
+}
+
+.top-head{
+  margin-bottom: -2px;
+  padding-bottom: 0;
+}
+
+.z-top{
+  /*margin-left: 5%;*/
+  /*margin-right: 5%;*/
+  /*margin-bottom: 5%;*/
+  position: relative;
+  top: 50px;
+}
+
+.z-top h3{
+  color: black;
+}
+
+.z-top .faq h3{
+  color: white;
+}
+
+.faq{
+  background-color: #274663;
+  margin-bottom: 0;
+  position: relative;
+  top: -.5px;
+}
+
+@media(min-width:768px){
+  top: 89px;
+}
+
+@media(max-width:768px){
+
+.cus-form-xs{
+  color: white;
+}
+
+  .cus-menu-bar{
+  top: 0;
+  }
+  
+  .z-top{
+      top: 40px;
+  }
+
+}

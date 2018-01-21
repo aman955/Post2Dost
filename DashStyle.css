@@ -1,0 +1,14 @@
+#inspiration h5{
+	color: blue;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#inspiration li{
+	background-color: white;
+	list-style-type: none;
+	border: 1px solid black; 
+	margin-bottom: 5px;
+    padding: 0;
+    color: green;
+}

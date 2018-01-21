@@ -1,0 +1,154 @@
+/*About Us*/
+
+*{/*
+  border: 1px red solid !important;*/
+  background-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+  color: ;
+}
+
+body {background-color: #34577a;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.blockquote-primary{border-color:#357EBD}
+.blockquote-success{border-color:#4CAE4C}
+.blockquote-info{border-color:#46B8DA}
+.blockquote-warning{border-color:#EEA236}
+.blockquote-danger{border-color:#D43F3A}
+
+.cus-form-xs{
+  height: 200px;
+  margin: 4em;
+  position: relative;
+  top: 0px;
+}
+
+.cus-menu-bar{
+  top: 80px;
+}
+
+.faq{
+  background-color: #274663
+}
+
+.jumbotron{
+  position: relative;
+}
+
+@media (max-width:768px){
+.jumbotron{
+  padding-left: 2em;
+  padding-right: 2em;
+  top: 15px;
+}
+
+.group-panel>img{
+  width: 90%;
+  margin: 10px;
+}
+
+.foot{
+  background-color: #3c4451;
+  color: black;
+  bottom: -20px;
+  margin-bottom: 0;
+  position: relative;
+}
+}
+
+@media (min-width: 768px){
+
+.foot{
+  background-color: #3c4451;
+  color: black;
+  bottom: -100px;
+  margin-bottom: 0;
+  position: relative;
+}
+.jumbotron{
+  top: 100px;
+}
+
+.group-panel>img{
+  width: 32%;
+}
+}
+
+.link-no-line{
+  text-decoration: none;
+}
+
+.link-no-line:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-logo{
+  display: inline;
+  float: left;
+  height: 55px;
+  width: 55px;
+}
+
+.panel-body,.panel-heading{
+  background-color: #afb7bf;
+}
+
+.page-head{
+  background-color: #3c4451;
+  padding: 15px 0;
+}
+
+.pro-panel{
+  text-align: center;
+}
+
+.profile-container{/*
+  background-color: #a4ccf2;*/
+  display: inline-block;
+  vertical-align: top;
+  height: 20%;
+  width: 23.6%;
+  margin: 5px;
+  position: relative;
+  min-width: 150px;
+  padding: 1%;
+}
+
+.quotes{
+  height: 1%;
+}
+
+.quotes>img{
+  height: 90%;
+  width: 20%;
+  margin: 0 15px;
+}
+
+.text-white{
+  color: white;
+}
+
+.top-head{
+  margin-bottom: -2px;
+  padding-bottom: 0;
+}
+
+.z-top{
+  position: relative;
+}
+
+@media(max-width:768px){
+
+.cus-form-xs{
+  color: white;
+}
+
+  .cus-menu-bar{
+  top: 0;
+  }
+
+}
+
