@@ -1,2 +1,2 @@
 # Post2Dost
-Online Postal Website
+A user-friendly online website for sending physical letters to users.
